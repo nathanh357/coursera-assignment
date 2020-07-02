@@ -7,18 +7,35 @@ body {
 }
 .chicken {
 	background-color: #B6AC99;
-	font-family: times new roman;
-	border: 2px solid black;
+	font-family: lucida console, monospace;
+	font-weight: bold;
+	border-bottom: 2px solid black; 
+	border-left: 2px solid black;
+	width: 30%;
+	float: right;
+	text-align: center;
+
 }
 .beef {
 	background-color: #EC583A;
-	font-family: times new roman;
-	border: 2px solid black;
+	font-family: lucida console, monospace;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	width: 30%;
+	float: right;
+	text-align: center;
 }
 .sushi {
 	background-color: #3b9ee7;
-	font-family: times new roman;
-	border: 2px solid black;
+	font-family: lucida console, monospace;
+	font-weight: bold;
+	border-bottom: 2px solid black; 
+	border-left: 2px solid black;
+	width: 30%;
+	float: right;
+	text-align: center;
+
 }
 h1 {
   margin-bottom: 15px;
@@ -27,30 +44,39 @@ h1 {
   width: 15%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  padding: 7px;
+  text-align: center; 
+  padding: 10px;
+  display: block;
+  /** white-space:normal; word-break: break-all **/
 }
 article {
 	border: 4px solid black;
+	width: 100%;
+	height: 100%;
+	background-color: #E1A7B9;
 }
 div {
   /*padding: 5px;*/
 }
 p {
   /*border: 1px solid black;*/
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;
+  height: 100%;
+  /*margin-right: auto;
+  margin-left: auto;*/
   font-family: Helvetica;
   text-align: right;
   padding: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  clear: both;
 } 
 
 .lorem {
   text-align: left;
   background-color: #E1A7B9;
-  border: 2px solid black;
-  font-family: times new roman;
+  /* border: 2px solid black; */
+  font-family: comic sans MS;
 }
 /* Simple Responsive Framework. */
 .row {
@@ -186,5 +212,8 @@ p {
   }
   .col-sm-12 {
     width: 100%;
+  }
+  h1 {
+  	white-space:normal; word-break: break-all
   }
 }
