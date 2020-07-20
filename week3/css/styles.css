@@ -1,0 +1,145 @@
+/********** header **********/
+.container {
+	width: 100%;
+	margin: 10px;
+}
+.navbar-brand {
+	font-family: lucida console, monospace;
+	font-size: 40px;
+	color: black; 
+}
+.nav-icon {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+header {
+	padding: 15px;
+	border: 3px solid black;
+}
+button {
+	margin: 0 15 0 15 0;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #B6AC99;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  text-align: left;
+  margin-top: -65px;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #9ACEF7;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  background-color:#B6AC99;
+  border: 1px solid black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  float: right;
+  width: 100%;
+  margin-top: 23px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/** w3schools **/
+
+header {
+	background-color: #B6AC99;
+}
+
+@media (min-width: 768px) {
+	.dropbtn {
+		display: none;
+	}
+} 
+
+
+/********** end of header **********/
+
+
+
+/********** main content *********/
+body {
+	background-color: #9ACEF7;
+}
+h2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #212529;
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+	padding: 20px;
+	display: block;
+	font-size: 40px;
+	font-family: lucida console, monospace;
+}
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+.row {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+section {
+	background-color: #E1A7B9;
+	margin: 20px;
+	border: 2px solid #212529;
+}
+.section-title {
+	background-color: #B6AC99;
+	font-family: lucida console, monospace;
+	font-weight: bold;
+	border: 2px solid black;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	text-align: center;
+}
+p {
+	text-align: left;
+	line-height: 50px;
+	font-family: comic sans MS;
+	font-size: 30px;
+	padding: 10px;
+}
